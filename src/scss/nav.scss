@@ -1,0 +1,26 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 3%;
+
+  &__link {
+    display: inline-block;
+    font-family: Helvetica, sans-serif;
+    font-size: 15px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: whitesmoke;
+    font-weight: 700;
+    opacity: 0.9;
+    padding: 40px;
+    transition: color 0.5s;
+  }
+
+  &__link:visited {
+    color: whitesmoke;
+  }
+
+  &__link:hover {
+    color: wheat;
+  }
+}

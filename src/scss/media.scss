@@ -1,0 +1,28 @@
+@media (max-width: 833px) {
+  .header {
+    &__nav {
+      width: 100%;
+    }
+  }
+  
+  .nav {
+    flex-direction: column;
+    align-items: flex-end;
+  }
+
+  .article {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .form {
+    &__top {
+      display: flex;
+      flex-direction: column;
+
+      &-field {
+        width: 100%;
+      }
+    }
+  }
+}
